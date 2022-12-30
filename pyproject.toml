@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-web-for-simple-enjoyment-server"
+version = "0.1.0"
+description = "web-for-simple-enjoyment-server"
+authors = ["SeungRyul Ji <jisr0703@github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.20.0"
+fastapi = "^0.88.0"
+PyJWT = "^2.6.0"
+SQLAlchemy = "^1.4.45"
+pytest = "^7.2.0"
+pydantic = {extras = ["dotenv"], version = "^1.10.4"}
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
